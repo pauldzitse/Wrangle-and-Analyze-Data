@@ -17,23 +17,22 @@ The following packages (libraries) need to be installed. You can install these p
 - requests
 - tweepy
 - json
-You need to be able to create written documents that contain images and you need to be able to export these documents as PDF files.
 
 # Gathering Data
 
 ## Data is successfully gathered:
 
-- From at least the three (3) different sources on the Project Details page.
-- In at least the three (3) different file formats on the Project Details page.
-- Each piece of data is imported into a separate pandas DataFrame at first.
+- From at least the three (3) different sources.
+- In at least the three (3) different file formats.
+- Each piece of data is initially imported into a separate pandas DataFrame.
 
 # Assessing Data
 
 
 ## Two types of assessment are used:
-- Visual assessment: each piece of gathered data is displayed in the Jupyter Notebook for visual assessment purposes. Once displayed, data can additionally be assessed in an external application (e.g. Excel, text editor).
+- Visual assessment: each piece of gathered data is displayed in a Jupyter Notebook for visual assessment purposes. Once displayed, data is assessed in an external application (e.g. Excel, text editor).
 - Programmatic assessment: pandas' functions and/or methods are used to assess the data.
-- At least eight (8) data quality issues and two (2) tidiness issues are detected, and include the issues to clean to satisfy the Project Motivation. Each issue is documented in one to a few sentences each.
+- At least eight (8) data quality issues and two (2) tidiness issues are detected, which include issues to clean to satisfy the Project requirement. Each issue is documented in one to a few sentences each.
 
 ## Cleaning Data
 -The define, code, and test steps of the cleaning process are clearly documented.
